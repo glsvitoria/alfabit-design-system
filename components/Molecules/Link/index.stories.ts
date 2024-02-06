@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { Link, LinkProps } from '.'
 
 const meta = {
-	title: 'Molecules/Link',
+	title: 'Design System/Molecules/Link',
 	component: Link,
 	argTypes: {
 		children: {

@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { Button, ButtonProps } from '.'
 
 const meta = {
-	title: 'Molecules/Button',
+	title: 'Design System/Molecules/Button',
 	component: Button,
 	argTypes: {
 		children: {
@@ -17,6 +17,7 @@ const meta = {
 		variant: {
 			options: ['primary', 'secondary', 'tertiary'],
 		},
+    onClick: { action: 'clicked' },
 	},
 	args: {
 		children: 'Click me',
